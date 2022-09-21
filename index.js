@@ -13,7 +13,7 @@ console.log(
     "My name is " + name, 
     "my age is " + age, 
     "am I taken?", + isSingle, 
-    "my hobies", + hobby,
+    "my hobbies", + hobbies,
     run
 );
 
@@ -65,7 +65,7 @@ for (let b = 0; b <= 10; b++) {
        ***
         *
 */
-hobby.forEach((hobbies, i) => {
+hobbies.forEach((hobbies, i) => {
     console.log(hobbies, i);
     if (i >= 1) return;
 }) 
