@@ -76,13 +76,17 @@ _functions.consoleMessage('Log this message')
 
 
 function createDiamond (numberOfAsterisks){
+
     //if <numberOfAsterisks> is an odd number, add + 1
     //loop
-    if (numberOfAsterisks % 2 != 0) {
+    if (numberOfAsterisks % 3 != 0) {
         numberOfAsterisks++
     }
 
+
+
     console.log("\n\nnumberOfAsterisks = " + numberOfAsterisks)
+
 
     for (let z = (numberOfAsterisks/2)-1; z > 0; z--){
         let a = numberOfAsterisks-(z*2)
